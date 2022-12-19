@@ -1,7 +1,6 @@
 {
   "name": "blockchain",
   "version": "1.0.0",
-  "description": "",
   "main": "provider.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +10,19 @@
   "license": "ISC",
   "dependencies": {
     "nconf": "^0.12.0",
+    "solc": "^0.8.17",
     "web3": "^1.8.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbeta8t3/blockchain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devbeta8t3/blockchain/issues"
+  },
+  "homepage": "https://github.com/devbeta8t3/blockchain#readme",
+  "description": ""
 }

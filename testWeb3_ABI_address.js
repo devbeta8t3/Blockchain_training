@@ -6,7 +6,7 @@ var web3 = new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:7545'));
 
 (async() => {
 
-    const address = "0x9d7bd648b208f31B9B7193533a3dC122559f3338"; // contract address of MyContract.sol
+    const address = "0xBf67AF361b9e312f7c96d1f5f66CFbC0Faa489ac"; // contract address of MyContract.sol
     const abi = [
     {
         "inputs": [],
