@@ -6,7 +6,7 @@ var web3 = new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:7545'));
 
 (async() => {
 
-    const address = "0x3Ae02742b2aD418096F1616adCcB84C0870F32aD"; // contract address of MyContract.sol
+    const address = "0xb1eEEd5dD0Fb4FacB4E88e0E1Ce77199b75208Af"; // contract address of MyContract.sol
     const abi = [
         {
 			"anonymous": false,
@@ -81,7 +81,7 @@ var web3 = new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:7545'));
 	// }).then(console.log);
 
 	// 내가 찾는 txID
-	let txID = "0xcc18f3512fc6d59b625a7a3cfd558276b59d3cd5838ae89d1ce35b412f74de21"
+	let txID = "0x86147d8a900d3d8c0a24bf0450a217955c949991898f9ab9747653021bf92d09"
 
 	contractInstance.getPastEvents("allEvents", {
 		fromBlock: "earliest", // or blockNumber

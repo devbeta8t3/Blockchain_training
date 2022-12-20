@@ -6,7 +6,7 @@ var web3 = new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:7545'));
 
 (async() => {
 
-    const address = "0x3Ae02742b2aD418096F1616adCcB84C0870F32aD"; // contract address of MyContract.sol
+    const address = "0xb1eEEd5dD0Fb4FacB4E88e0E1Ce77199b75208Af"; // contract address of MyContract.sol
     const abi = [
         {
 			"anonymous": false,
@@ -74,7 +74,7 @@ var web3 = new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:7545'));
     // console.log(await contractInstance.methods.myUint().call()); //컨트랙트의 myUnit을 호출
 
     let accounts = await web3.eth.getAccounts();
-    await contractInstance.methods.contractLog("real estate no.3", "trade no.3 ", 43300).send({from: accounts[0]});
+    await contractInstance.methods.contractLog("real estate no.3", "trade no.3 ", 333300).send({from: accounts[0]});
     //console.log(await contractInstance.methods.myUint().call());
 
 })()
