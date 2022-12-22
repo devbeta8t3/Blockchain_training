@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.17;
 
-contract priceContract {
+contract PriceContract {
 
     event StringLog(
         address _from, 
@@ -9,7 +9,8 @@ contract priceContract {
         string _contractor2, 
         string _contractTitle,
         string _contractContent,
-        uint _contractPrice);
+        uint _contractPrice
+    );
 
     function contractLog(string memory _contractor1, string memory _contractor2, string memory _contractTitle, string memory _contractContent, uint _contractPrice) public returns (bool) {
 
